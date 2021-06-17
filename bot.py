@@ -1,5 +1,5 @@
 # encoding: utf-8
-bot_token = "<BOT-TOKEN>"
+bot_token = "<1575220529:AAFpV9-PhV_xE4p8PvCgTo6oQ2nfp1Bjfyg>"
 
 #LIBRERIAS RESPONDER
 from telegram.ext import Updater #ENVIAR MENSAJES RESPONDIENDO
@@ -17,7 +17,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 def start(update, context):
     print(update.effective_chat.id) #ESCRIBE EL CHAT ID DE LA PERSONA
     
-    context.bot.send_message(chat_id=update.effective_chat.id, text="HOLA!") #RESPONDE A EL CHAT EN EL QUE LE HABLAN
+    context.bot.send_message(chat_id=update.effective_chat.id, text="UNETE AL GRUPO OFICIAL @BOTSCHKLATAM🌟") #RESPONDE A EL CHAT EN EL QUE LE HABLAN
 
 def personas(update, context):
     print(update.effective_chat.id) #ESCRIBE EL CHAT ID DE LA PERSONA
